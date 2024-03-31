@@ -11,8 +11,31 @@ int main()
        - “Recursa la materia”, si no aprobó ningún examen parcial.
     */
 
-   
+    int nota1, nota2, nota3,nota4;
 
+    cout << "Ingrese la nota del exámen 1: ";
+    cin >> nota1;
+    cout << "Ingrese la nota del exámen 2: ";
+    cin >> nota2;
+    cout << "Ingrese la nota del exámen 3: ";
+    cin >> nota3;
+    cout << "Ingrese la nota del exámen 4: ";
+    cin >> nota4;
+    cout << endl;
+
+    if (nota1 >= 7 && nota2 >= 7 && nota3 >= 7 && nota4 >= 7)
+    {
+        cout << "Promociona." << endl;
+    }else if ((nota1 >= 4 && nota2 >= 4 && nota3 >= 4) || (nota1 >= 4 && nota3 >= 4 && nota4 >= 4) || (nota1 >= 4 && nota2 >= 4 && nota4 >=4) || (nota2 >= 4 && nota3 >= 4 && nota4 >= 4))
+    {
+        cout << "Rinde exámen final." << endl;
+    }else if (nota1 >= 4 || nota2 >= 4 || nota3 >= 4 || nota4 >= 4)
+    {
+        cout << "Recupera Parciales." << endl;
+    }else
+    {
+        cout << "Recursa la materia." << endl;
+    }
 
     return 0;
 }
