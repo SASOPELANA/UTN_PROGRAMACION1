@@ -1,0 +1,63 @@
+<mxfile host="Electron" modified="2024-03-28T20:55:55.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="IonOvrcxopXKzQZLDxJz" version="24.1.0" type="device">
+  <diagram name="Página-1" id="iuupICJ3gBpzsHs9Ew-P">
+    <mxGraphModel dx="257" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#999999" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-1" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#000000&quot;&gt;5 Un comercio vende tres marcas de alfajores distintas A, B y C. Hacer un&lt;br&gt;&lt;br&gt;programa para ingresar por teclado la cantidad de alfajores vendidos de cada&lt;br&gt;&lt;br&gt;una de las tres marcas y luego se informe el porcentaje de ventas para cada&lt;br&gt;&lt;br&gt;una de ellas.&lt;br&gt;&lt;br&gt;Ejemplo. Si se ingresa 100, 25 y 75 como cantidades vendidas entonces el&lt;br&gt;programa calculará e informará A: 50%, B: 12,50% y C: 37,50%.&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="10" width="760" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AHHfWGOEWiSO8H7z__-T-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1040" y="260" width="435" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="AHHfWGOEWiSO8H7z__-T-5" vertex="1">
+          <mxGeometry x="230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-6" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#121211;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;direction=west;container=1;aspect=fixed;" parent="AHHfWGOEWiSO8H7z__-T-5" vertex="1">
+          <mxGeometry x="170" y="60" width="160" height="50" as="geometry">
+            <mxRectangle x="-1020" y="-650" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-11" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;A, B, C&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="zSOnB2R_BK0Q5YlTBO0r-6" vertex="1">
+          <mxGeometry x="50" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-15" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="zSOnB2R_BK0Q5YlTBO0r-6" vertex="1">
+          <mxGeometry x="75" y="-20" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-7" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#0F140C;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="AHHfWGOEWiSO8H7z__-T-5" vertex="1">
+          <mxGeometry x="77.5" y="300" width="345" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-8" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#0f100e;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="AHHfWGOEWiSO8H7z__-T-5" vertex="1">
+          <mxGeometry x="65" y="140" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-9" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;I&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="AHHfWGOEWiSO8H7z__-T-5" vertex="1">
+          <mxGeometry x="220" y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-12" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px; color: rgb(0, 0, 0); background-color: initial;&quot;&gt;total_alfajores = A + B + C&lt;/b&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; porcentaje_a = A * 100 / total_alfajores&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;porcentaje_b = B * 100 / total_alfajores&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;porcentaje_c&amp;nbsp; = C * 100 / total_alfajores&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="AHHfWGOEWiSO8H7z__-T-5" vertex="1">
+          <mxGeometry y="130" width="415" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-13" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px;&quot;&gt;porcentaje_a, porcentaje_b, porcentaje_c&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="AHHfWGOEWiSO8H7z__-T-5" vertex="1">
+          <mxGeometry x="100" y="290" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-14" value="" style="group;aspect=fixed;" parent="AHHfWGOEWiSO8H7z__-T-5" vertex="1" connectable="0">
+          <mxGeometry x="220" y="390" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="zSOnB2R_BK0Q5YlTBO0r-14" vertex="1">
+          <mxGeometry x="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-10" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;F&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="zSOnB2R_BK0Q5YlTBO0r-14" vertex="1">
+          <mxGeometry y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AHHfWGOEWiSO8H7z__-T-1" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" vertex="1" parent="AHHfWGOEWiSO8H7z__-T-5">
+          <mxGeometry x="245" y="370" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AHHfWGOEWiSO8H7z__-T-2" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" vertex="1" parent="AHHfWGOEWiSO8H7z__-T-5">
+          <mxGeometry x="245" y="270" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AHHfWGOEWiSO8H7z__-T-3" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" vertex="1" parent="AHHfWGOEWiSO8H7z__-T-5">
+          <mxGeometry x="245" y="110" width="10" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,13 @@
+<mxfile host="Electron" modified="2024-03-23T17:36:54.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ttQHtKKozfbljNpC_gX6" version="23.1.5" type="device">
+  <diagram name="Página-1" id="KFGbmsQCDJnkx6Yqs7VR">
+    <mxGraphModel dx="1420" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n5UiYEWi1VrdAFmlyXay-1" value="&lt;p style=&quot;line-height: 70%;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;i&gt;12 Una granja vende la caja de 12 unidades a $1000 y cada huevo suelto a $120.&lt;br&gt;&lt;br&gt;Hacer un programa para ingresar la cantidad de huevos que compra un cliente y&lt;br&gt;&lt;br&gt;mostrar por pantalla el importe total a pagar.&lt;br&gt;&lt;br&gt;Recordatorio. Por cada 12 huevos se debe calcular una caja y el excedente se&lt;br&gt;&lt;br&gt;calcula como suelto.&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 70%;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;br&gt;&lt;br&gt;Ejemplo A. Si la cantidad ingresada son 15 huevos, el programa calculará 1 caja&lt;br&gt;&lt;br&gt;y 3 sueltos, es decir $1000 + $120 x 3 = $1360.&lt;br&gt;&lt;br&gt;Ejemplo B. Si la cantidad ingresada son 28 huevos el programa calculará 2&lt;br&gt;&lt;br&gt;cajas y 4 sueltos, es decir $1000 x 2 + $120 x 4 = $2480.&lt;br&gt;&lt;br&gt;Ejemplo C. Si la cantidad ingresada son 8 huevos, el programa calculará: 0 cajas&lt;br&gt;&lt;br&gt;y 8 sueltos, es decir $120 x 8 = $960.&lt;br&gt;&lt;br&gt;Ejemplo D. Si la cantidad ingresada son 200 huevos, el programa calculará: 16&lt;br&gt;&lt;br&gt;cajas y 8 sueltos, es decir $1000 x 20 + $120 x 8 = $20960.&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" width="690" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

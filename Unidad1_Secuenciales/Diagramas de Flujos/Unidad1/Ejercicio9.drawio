@@ -1,0 +1,66 @@
+<mxfile host="Electron" modified="2024-03-26T04:14:37.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="RSauzexa5oPJck1SZuqX" version="24.1.0" type="device">
+  <diagram name="Página-1" id="lA5J19LrfxhTEtrZZSwJ">
+    <mxGraphModel dx="1420" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCE5FF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-1" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;9. Hacer un programa para ingresar por teclado una cantidad de minutos y&lt;br&gt;&lt;br&gt;mostrar por pantalla a cuantas horas y minutos equivalen.&lt;br&gt;&lt;br&gt;Ejemplo A: si se ingresan 380 minutos el programa mostrará por pantalla que&lt;br&gt;&lt;br&gt;equivalen a 6 horas y 20 minutos.&lt;br&gt;&lt;br&gt;Ejemplo B: si se ingresan 720 minutos el programa mostrará por pantalla que&lt;br&gt;&lt;br&gt;equivalen a 12 horas y 0 minutos.&lt;br&gt;&lt;br&gt;Ejemplo C: si se ingresan 50 minutos el programa mostrará por pantalla que&lt;br&gt;&lt;br&gt;equivalen a 0 horas y 50 minutos&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="10" width="730" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="300" y="320" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-4" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#121211;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;direction=west;container=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="235" y="390" width="160" height="50" as="geometry">
+            <mxRectangle x="-1020" y="-650" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-9" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;minutos&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="fekg_c7cNm8AzTALBfJ4-4" vertex="1">
+          <mxGeometry x="40" y="15" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-6" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;I&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="285" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-17" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" y="360" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-24" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" y="440" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-28" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" y="545" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VdZVHTKrxEX_5G1YbwKr-1" value="" style="group;aspect=fixed;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="460" width="280" height="95.24" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-12" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#0f100e;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="VdZVHTKrxEX_5G1YbwKr-1" vertex="1">
+          <mxGeometry y="7.5" width="250" height="77.38" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-14" value="&lt;div style=&quot;text-align: left; font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;horas = minutos / 60&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;minutos = minutos % 60&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="VdZVHTKrxEX_5G1YbwKr-1" vertex="1">
+          <mxGeometry width="250" height="95.24" as="geometry" />
+        </mxCell>
+        <mxCell id="VdZVHTKrxEX_5G1YbwKr-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="235" y="580" width="160" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-5" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#0F140C;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="VdZVHTKrxEX_5G1YbwKr-2" vertex="1">
+          <mxGeometry x="5" y="5" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-8" value="" style="group;aspect=fixed;" parent="VdZVHTKrxEX_5G1YbwKr-2" vertex="1" connectable="0">
+          <mxGeometry x="50" y="85" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="fekg_c7cNm8AzTALBfJ4-8" vertex="1">
+          <mxGeometry x="15" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-7" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;F&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="fekg_c7cNm8AzTALBfJ4-8" vertex="1">
+          <mxGeometry y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-23" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="fekg_c7cNm8AzTALBfJ4-8" vertex="1">
+          <mxGeometry x="25" y="-30" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fekg_c7cNm8AzTALBfJ4-16" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;horas, minutos&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="VdZVHTKrxEX_5G1YbwKr-2" vertex="1">
+          <mxGeometry width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,13 @@
+<mxfile host="Electron" modified="2024-03-22T20:55:32.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="BtfvtpjzOs_bXaK5ucnN" version="23.1.5" type="device">
+  <diagram name="Página-1" id="iuupICJ3gBpzsHs9Ew-P">
+    <mxGraphModel dx="593" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#999999" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zSOnB2R_BK0Q5YlTBO0r-1" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;5 Un comercio vende tres marcas de alfajores distintas A, B y C. Hacer un&lt;br&gt;&lt;br&gt;programa para ingresar por teclado la cantidad de alfajores vendidos de cada&lt;br&gt;&lt;br&gt;una de las tres marcas y luego se informe el porcentaje de ventas para cada&lt;br&gt;&lt;br&gt;una de ellas.&lt;br&gt;&lt;br&gt;Ejemplo. Si se ingresa 100, 25 y 75 como cantidades vendidas entonces el&lt;br&gt;programa calculará e informará A: 50%, B: 12,50% y C: 37,50%.&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="10" width="700" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

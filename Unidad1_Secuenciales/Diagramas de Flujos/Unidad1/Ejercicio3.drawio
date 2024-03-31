@@ -1,0 +1,48 @@
+<mxfile host="Electron" modified="2024-03-22T16:47:19.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="8aNxKEDpCVCqxESTwS3z" version="23.1.5" type="device">
+  <diagram name="Página-1" id="0Vg0Sbu0r9DxQ2GMV2Hm">
+    <mxGraphModel dx="1420" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#E6E6E6" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-1" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#000000&quot;&gt;3. Una concesionaria de autos paga a los vendedores un sueldo fijo de $5000 más&lt;br&gt;&lt;br&gt;$700 de premio por cada auto vendido. Hacer un programa que permita&lt;br&gt;&lt;br&gt;ingresar por teclado la cantidad de autos vendidos por un vendedor y luego&lt;br&gt;&lt;br&gt;informar por pantalla el sueldo total a pagar.&lt;br&gt;&lt;br&gt;Ejemplo. Si la cantidad de autos vendidos fuera 4 entonces el sueldo total a&lt;br&gt;&lt;br&gt;pagar es de $7800.&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="680" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="315" y="610" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-4" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#0F140C;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="255" y="540" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-6" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#0f100e;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="420" width="275" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="280" width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" vertex="1" parent="L61wuBs-b5sYwtBGPqGT-8">
+          <mxGeometry x="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-5" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#121211;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;direction=west;container=1;aspect=fixed;" vertex="1" parent="L61wuBs-b5sYwtBGPqGT-8">
+          <mxGeometry y="60" width="160" height="55" as="geometry">
+            <mxRectangle x="-1020" y="-650" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-7" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;autos_vendidos&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" vertex="1" parent="L61wuBs-b5sYwtBGPqGT-5">
+          <mxGeometry x="10" y="-5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-9" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;I&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="L61wuBs-b5sYwtBGPqGT-8">
+          <mxGeometry x="50" y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-10" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&amp;nbsp;premio = 700 * autos_vendidos&lt;br&gt;&lt;br&gt;sueldo_total = 5000 + premio&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="420" width="283" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-11" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;sueldo_total&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L61wuBs-b5sYwtBGPqGT-12" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;F&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="615" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

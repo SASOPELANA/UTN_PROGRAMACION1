@@ -1,0 +1,63 @@
+<mxfile host="Electron" modified="2024-03-23T01:34:18.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="t8vF1Hi4r03uk79ueb3V" version="23.1.5" type="device">
+  <diagram name="Página-1" id="aatZ-nNaOYgfv3EvMKdy">
+    <mxGraphModel dx="593" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#E6E6E6" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-1" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;6 Hacer un programa para que un comercio ingrese por teclado la recaudación en&lt;br&gt;pesos para cada una de las cuatro semanas del mes. El programa debe listar la&lt;br&gt;recaudación promedio por semana y el porcentaje de recaudación por semana.&lt;br&gt;&lt;br&gt;Ejemplo. Si se ingresa $1600, $1200, $4800 y $400 se listará como recaudación&lt;br&gt;promedio $2000 y como porcentajes por semana: 20%, 15%, 60% y 5%.&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="10" width="650" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1210" y="160" width="420" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="180" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-5" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#121211;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;direction=west;container=1;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="130" y="60" width="140" height="45" as="geometry">
+            <mxRectangle x="-1020" y="-650" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-11" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;a, b, c, d&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-5">
+          <mxGeometry x="5" y="-5" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-15" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-5">
+          <mxGeometry x="65" y="-20" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-6" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#0F140C;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="62.5" y="310" width="275" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-7" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;I&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="170" y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-9" value="" style="group;aspect=fixed;" vertex="1" connectable="0" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="170" y="440" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-9">
+          <mxGeometry x="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-8" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;F&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-9">
+          <mxGeometry y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-10" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#0f100e;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="30" y="130" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-size: 15px; color: rgb(0, 0, 0); background-color: initial;&quot;&gt;total = a + b + c + d&lt;/b&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-size: 15px; background-color: initial;&quot;&gt;recaudacion_semana_promedio = total / 4&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;porcentaje_semana_a = a * 100 / total&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;porcentaje_semana_b = b * 100 / total&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;porcentaje_semana_c = c * 100 / total&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;porcentaje_semana_d = d * 100 / total&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry y="130" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-13" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px;&quot;&gt;recaduacion_semana_promedio,&amp;nbsp;&lt;br&gt;porcentaje_semana_a,&lt;br&gt;porcentaje_semana_b,&lt;br&gt;porcentaje_semana_c,&lt;br&gt;porcentaje_semana_d&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="67.5" y="305" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-16" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="195" y="105" width="10" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-17" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="195" y="280" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-B9jYgRZQX2vFMtne4-18" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" vertex="1" parent="Ez-B9jYgRZQX2vFMtne4-14">
+          <mxGeometry x="195" y="400" width="10" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

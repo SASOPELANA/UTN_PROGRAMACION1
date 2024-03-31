@@ -1,0 +1,63 @@
+<mxfile host="Electron" modified="2024-03-27T01:35:02.515Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="uBwtBeiEqXn5ce5oc4Ck" version="24.1.0" type="device">
+  <diagram name="Página-1" id="YkLNtj0hxoq6ixY4eWpy">
+    <mxGraphModel dx="1420" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#999999" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-1" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#000000&quot;&gt;2 Hacer un programa que solicite por teclado que se ingresen dos números y&lt;br&gt;&lt;br&gt;luego guardarlos en dos variables distintas. A continuación se deben&lt;br&gt;&lt;br&gt;intercambiar mutuamente los valores en ambas variables y mostrarlos por&lt;br&gt;&lt;br&gt;pantalla.&lt;br&gt;&lt;br&gt;Ejemplo: Suponiendo que se ingresan 3 y 8 como valores y que la variables&lt;br&gt;&lt;br&gt;usadas son A y B, entonces A=3 y B=8, pero luego debe quedar A=8 y B=3.&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="94" y="10" width="640" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-23" value="" style="group;aspect=fixed;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="260" y="260" width="220" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="90" y="300" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-7" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#0F140C;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="39.5" y="230" width="141" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-8" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;labelBackgroundColor=none;strokeColor=#121211;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;direction=west;container=1;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="36.25" y="60" width="147.5" height="40" as="geometry">
+            <mxRectangle x="-1020" y="-650" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-12" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;A, B&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-8" vertex="1">
+          <mxGeometry x="18.75" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-19" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-8" vertex="1">
+          <mxGeometry x="68.75" y="-25" width="10" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-11" value="" style="group;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1" connectable="0">
+          <mxGeometry x="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-11" vertex="1">
+          <mxGeometry x="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-10" value="&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 17px;&quot;&gt;I&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-11" vertex="1">
+          <mxGeometry y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-15" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#0f100e;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="25" y="130" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-16" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;C = A&lt;br&gt;A = B&lt;br&gt;&amp;nbsp;A = C&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry y="100" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-17" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;A, B&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="80" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-18" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;F&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="80" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-20" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="105" y="100" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-21" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="105" y="210" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-22" value="" style="line;strokeWidth=2;direction=south;html=1;hachureGap=4;strokeColor=#000000;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+          <mxGeometry x="105" y="270" width="10" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

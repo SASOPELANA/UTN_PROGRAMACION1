@@ -1,0 +1,13 @@
+<mxfile host="Electron" modified="2024-03-22T16:53:59.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="qximYFPqqBom0jE0iQBH" version="23.1.5" type="device">
+  <diagram name="Página-1" id="7-nu8wdvUh4XEmAaOwXu">
+    <mxGraphModel dx="1420" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JB9zGX9foIIa3e5yfllj-2" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;4 Hacer un programa para ingresar por teclado la cantidad de asientos totales en&lt;br&gt;&lt;br&gt;un avión y la cantidad de pasajes ocupados y luego calcular e informar el&lt;br&gt;&lt;br&gt;porcentaje de ocupación y el porcentaje de no ocupación del mismo.&lt;br&gt;&lt;br&gt;&lt;/font&gt;Ejemplo si el avión tiene 200 asientos totales y se vendieron 80 pasajes, el&lt;br&gt;porcentaje de ocupación que se informará será de un 40% y el porcentaje de no&lt;br&gt;ocupación será de un 60%.&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="630" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
