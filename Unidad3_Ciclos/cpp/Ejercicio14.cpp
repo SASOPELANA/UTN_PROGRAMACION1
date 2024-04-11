@@ -16,24 +16,16 @@ int main(){
 
         if (num % 2 != 0){
             con_impar++;
-
-            switch (con_impar)
-            {
-            case 1:
-                primer_impar = num;
-                break;
-            case 2:
-                segundo_impar = num;
-                break;
-            case 3:
-                anteultimo_impar = num;
-                break;
-            case 4:
-                ultimo_impar = num;
-                break;  
-            default:
-                break;
-            }
+        if (con_impar == 1){
+        primer_impar = num;
+        }
+        if (con_impar == 2){
+        segundo_impar = num;
+        }
+        if (con_impar >= 3){
+        anteultimo_impar = ultimo_impar;
+        ultimo_impar = num;
+        }
         }
     }
 
