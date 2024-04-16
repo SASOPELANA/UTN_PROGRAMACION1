@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-03-27T01:35:02.515Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="uBwtBeiEqXn5ce5oc4Ck" version="24.1.0" type="device">
+<mxfile host="Electron" modified="2024-04-16T21:00:46.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="YpUnsOGaS5QlpP6FI46p" version="24.1.0" type="device">
   <diagram name="Página-1" id="YkLNtj0hxoq6ixY4eWpy">
     <mxGraphModel dx="1420" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#999999" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="h2C9OTSrwbMe706hCyiZ-15" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#0f100e;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d5e8d4;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
           <mxGeometry x="25" y="130" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h2C9OTSrwbMe706hCyiZ-16" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;C = A&lt;br&gt;A = B&lt;br&gt;&amp;nbsp;A = C&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
+        <mxCell id="h2C9OTSrwbMe706hCyiZ-16" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;AUX = A&lt;br&gt;A = B&lt;br&gt;&amp;nbsp;B = AUX&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
           <mxGeometry y="100" width="220" height="140" as="geometry" />
         </mxCell>
         <mxCell id="h2C9OTSrwbMe706hCyiZ-17" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;A, B&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;aspect=fixed;" parent="h2C9OTSrwbMe706hCyiZ-23" vertex="1">
