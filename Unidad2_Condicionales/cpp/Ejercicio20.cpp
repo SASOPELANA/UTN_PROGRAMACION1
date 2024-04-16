@@ -104,10 +104,12 @@ int main()
         cantidad_personas_20_30_40++;
     }
 
-    promedio_altura_mayor_30 = altura_mayor_30 / mayor_30;
-
+    if (mayor_30 > 0){
+        promedio_altura_mayor_30 = altura_mayor_30 / mayor_30;
+        cout << "El promedio de altura de las personas mayores a 30 años es: " << promedio_altura_mayor_30 << endl;
+    }
+    
     cout << "Personas mayores a 30 años y que miden mas de 1.8 es: " << personas_30_altura_180 << endl;
-    cout << "El promedio de altura de las personas mayores a 30 años es: " << promedio_altura_mayor_30 << endl;
     cout << "La cantidad de personas con altura entre 1.7 y 1.8 son: " << cantidad_personas_altura_17_18 << endl;
     cout << "La cantidad de personas cuya edad sea de 20, 30 o 40 años es: " << cantidad_personas_20_30_40 << endl;
 
