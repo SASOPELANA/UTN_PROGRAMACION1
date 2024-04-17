@@ -22,14 +22,19 @@ int main(){
         if (con_impar == 2){
         segundo_impar = num;
         }
-        if (con_impar >= 3){
         anteultimo_impar = ultimo_impar;
         ultimo_impar = num;
         }
-        }
     }
 
-    cout << "Primer impar: " << primer_impar << " -> Segundo impar: " << segundo_impar << " -> Anteúltimo impar: " << anteultimo_impar << " -> Último impar: " << ultimo_impar << endl;
+    if (con_impar > 0){
+        cout << "Primer impar: " << primer_impar << endl;
+        cout << "Último impar: "<< ultimo_impar << endl;
+    }
+     if (con_impar > 1){
+        cout << "Segundo impar: "<< segundo_impar << endl;
+        cout << "Anteúltimo impar: " << anteultimo_impar << endl;    
+    }
 
     return 0;
 }
