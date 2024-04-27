@@ -9,7 +9,7 @@ int main(){
       Ejemplo C: -5, -13, -20, -8, -55, -13, -55, -14, -15, -20, 0. Se listará Máximo -8.
     */
 
-    int num, maximo_pares;
+    int num, maximo_pares = 0;
     bool bandera = true;
 
     cout << "Digite números o cero (0) para finalizar: " << endl;

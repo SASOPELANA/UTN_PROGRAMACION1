@@ -8,7 +8,7 @@ int main(){
       3 y el 15; y si el usuario ingresa 25 y 8, se mostrarán los números entre el 8 y el 25.
     */
 
-    int num1, num2, max, menor;
+    int num1, num2, max = 0, menor = 0;
 
     cout << "Proporcione un número: " << endl;
     cin >> num1;

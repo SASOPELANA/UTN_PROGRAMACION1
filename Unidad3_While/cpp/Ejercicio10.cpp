@@ -10,7 +10,7 @@ int main(){
        Observe que los ejemplos B y C dejan en claro que la suposición de que el máximo “seguramente” es un positivo y el mínimo “seguramente” es un negativo, es incorrecta.
     */
 
-    int num, maximo, minimo;
+    int num, maximo = 0, minimo = 0;
     bool bandera = true;
 
     cout << "Diguite números o cero (0) para finalizar: " << endl;

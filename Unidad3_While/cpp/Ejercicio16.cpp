@@ -13,7 +13,7 @@ int main(){
        En este caso, el segundo número 88 no se analiza, solo sirve para finalizar el ingreso.
     */
 
-    int num, siguiente, maximo, con = 0;
+    int num, siguiente = 0, maximo, con = 0;
 
     cout << "Diguite una lista de números o dos números consecutivos iguales para finalizar: " << endl;
     cin >> num;

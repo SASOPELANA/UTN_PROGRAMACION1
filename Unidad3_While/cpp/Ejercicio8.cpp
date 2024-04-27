@@ -10,7 +10,7 @@ int main(){
      Ejemplo C: -9, -10, -20, -3, -9, -13, -55, -18, -55, 0. Se listará Máximo -3 Posición 4.
     */
 
-    int num, maximo,posicion, con = 0;
+    int num, maximo = 0,posicion, con = 0;
     bool bandera = true;
 
     cout << "Digite números o cero (0) para finalizar: " << endl;

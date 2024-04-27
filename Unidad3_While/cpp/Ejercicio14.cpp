@@ -10,7 +10,7 @@ int main(){
        Ejemplo 3: 10, 1, 15, 7, -15, 18, 20, 23, 0 se emitirá un cartel: “Conjunto No Ordenado”
     */
 
-    int num, anterior;
+    int num, anterior = 0;
     bool ordenado = true, bandera = true;
 
     cout << "Proporcione una lista de número o cero (0) para finalizar: " << endl;
