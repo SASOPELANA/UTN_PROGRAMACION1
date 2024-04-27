@@ -43,7 +43,7 @@ int main(){
         
     }
     
-    cout << "Cantidad de númeors: " << con << endl;
+    cout << "Cantidad de números: " << con << endl;
 
     return 0;
 }
