@@ -9,7 +9,7 @@ int main(){
        Mínimo Positivo: 2.
     */
 
-    int num, maximo_negativos, minimo_positivos;
+    int num, maximo_negativos = 0, minimo_positivos = 0;
     bool bandera1 = true, bandera2 = true;
 
     cout << "Ingrese una lista de números o cero (0) para finalizar: " << endl;

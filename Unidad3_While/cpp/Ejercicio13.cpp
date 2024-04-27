@@ -7,7 +7,7 @@ int main(){
        Ejemplo 8, 4, -5, 6, 9, 5, 18, 0 se informa -5 y 5.
     */
 
-    int num, primer_impar, ultimo_impar;
+    int num, primer_impar = 0, ultimo_impar = 0;
     bool bandera = true;
 
     cout << "Diguite una lista de números o cero (0) para finalizar: " << endl;

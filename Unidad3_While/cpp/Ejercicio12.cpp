@@ -7,7 +7,7 @@ int main(){
        Ejemplo 8, 4, 5, 6, -9, 5, 7, 0 se informa 5 y -9
     */
 
-    int num, primer_impar, segundo_impar, con = 0;
+    int num, primer_impar = 0, segundo_impar = 0, con = 0;
 
     cout << "Ingrese una lista de números o cero (0) para finalizar: " << endl;
     cin >> num;

@@ -11,7 +11,7 @@ int main(){
        En este caso, el segundo número positivo consecutivo, el 120, no se analiza, sólo sirve para finalizar el ingreso.
     */
 
-    int num, maximo, posi = 0;
+    int num, maximo = 0, posi = 0;
     bool positivo = true;
 
     cout << "Diguite una lista de números o dos números positivos consecutivos para finalizar: " << endl;
