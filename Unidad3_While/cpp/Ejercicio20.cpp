@@ -11,7 +11,7 @@ int main(){
        Último primo: 13 ubicación 5.
     */
 
-    int num, x = 1, i = 1, primer_par, posicion_par = 0, primo = 0,con_primos = 0, posicion_primos = 0;
+    int num, x = 1, i = 1, primer_par = 0, posicion_par = 0, primo = 0, con_primos = 0, posicion_primos = 0;
     bool bandera = true, primosss = false;
 
     cout << "Diguite una lista de números o cero (0) para finalizar: " << endl;
