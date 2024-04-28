@@ -40,7 +40,7 @@ int main(){
             cout << "Diguite una lista de números, o que la diferencia del máximo y mínimo sea mayor a 10, para finalizar: " << endl;
             cin >> num; 
         }
-        
+       
     }
     
     cout << "Cantidad de números: " << con << endl;
