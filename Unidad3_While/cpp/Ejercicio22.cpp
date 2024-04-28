@@ -35,7 +35,11 @@ int main(){
         }  
     }
 
-    cout << "Cantidad de ternas de números negativos: " << ternas_nega << endl;
-
+    if (ternas_nega > 0){
+        cout << "Cantidad de ternas de números negativos: " << ternas_nega << endl;
+    }else{
+        cout << "No se encontraron ternas de números negativos." << endl;
+    }
+    
     return 0;
 }
