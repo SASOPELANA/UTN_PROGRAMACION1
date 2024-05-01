@@ -24,6 +24,7 @@ int main(){
             con_nega++;
             if (con_nega == 3){
                 ternas_nega++;
+                con_nega = 2;
             }
         }else {
             con_nega = 0;

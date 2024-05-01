@@ -63,9 +63,10 @@ int main(){
             }
         }
         // Punto 4
-        acu_artista += integrantes;
+        acu_artista ++;
         acu_show += duracion_show;
 
+        cout << "--------------------------------------" << endl;
         cout << "Diguite el número del artista o cero (0) para finalizar: " << endl;
         cin >> num_artista;
         if (num_artista != 0){
@@ -79,6 +80,8 @@ int main(){
     }
 
     // Punto 1
+    cout << endl << "Punto 1" << endl;
+    cout << "-------------------------------------------" << endl;
     if (!bandera){
         cout << "El número de artista que realice el show más largo de la jornada 1 es: " << numero_max_j1 << endl;
     }else{
@@ -86,6 +89,8 @@ int main(){
     }
 
     // Punto 2
+    cout << endl << "Punto 2" << endl;
+    cout << "--------------------------------------------" << endl;
     if (jornada_uno > 0){
         cout << "La cantidad de solistas en la Jornada 1: " << jornada_uno << endl;
     }else{
@@ -103,17 +108,26 @@ int main(){
     }
 
     // Punto 3
+    cout << endl << "Punto 3" << endl;
+    cout << "--------------------------------------------" << endl;
     if (acu_jor_uno > acu_jor_dos && acu_jor_uno > acu_jor_tres){
-        cout << "La jornada 1 es la más extensa con un total de " << acu_jor_uno << " minutos." << endl;
-    }else if(acu_jor_dos > acu_jor_uno && acu_jor_dos > acu_jor_tres){
-        cout << "La jornada 2 es la más extensa con un total de " << acu_jor_dos << " minutos." << endl;
+        cout << "La jornada 1 es la más extensa. " << endl;
+    }else if(acu_jor_dos > acu_jor_tres){
+        cout << "La jornada 2 es la más extensa. " << endl;
     }else{
-        cout << "La jornada 3 es la más extensa con un total de " << acu_jor_tres << " minutos." << endl;
+        if (acu_jor_tres > 0){
+             cout << "La jornada 3 es la más extensa. " << endl;
+        }      
     }
     
     // Punto 4
+    cout << endl << "Punto 4" << endl;
+    cout << "---------------------------------------------" << endl;
     acu_show = acu_show / acu_artista;
-    cout << "Duración promedio de show por artista: " << acu_show << " minutos." << endl;
+    if (acu_show > 0){
+        cout << "Duración promedio de show por artista: " << acu_show << " minutos." << endl;
+    }
+    
 
     return 0;
 }
