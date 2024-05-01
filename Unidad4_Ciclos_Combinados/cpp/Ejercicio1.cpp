@@ -25,8 +25,13 @@ int main(){
             num_perfecto++;
         }  
     }
+    cout << endl << "-----------------------------------" << endl;
+    if (num_perfecto > 0){
+        cout << "Los numeros perfectos que se ingresaron son: " << num_perfecto << endl;
+    }else{
+        cout << "No se ingresaron n£meros perfectos." << endl;
+    }
     
-    cout << "Los numeros perfectos que se ingresaron son: " << num_perfecto << endl;
 
     return 0;
 }

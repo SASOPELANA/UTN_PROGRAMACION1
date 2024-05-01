@@ -29,7 +29,12 @@ int main(){
     }
     cout << endl;
     cout << "-------------------------------------------" << endl;
-    cout << "Total de n£meros primos ingresados: " << total_primos << endl;
+    if (total_primos > 0){
+        cout << "Total de n£meros primos ingresados: " << total_primos << endl;
+    }else {
+        cout << "No se ingresaron n£meros primos." << endl;
+    }
+    
 
     return 0;
 }
