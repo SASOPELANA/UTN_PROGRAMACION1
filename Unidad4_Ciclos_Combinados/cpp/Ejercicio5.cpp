@@ -11,21 +11,29 @@ using namespace std;
 int main(){
 
     int num, x = 0;
-    int con_impar = 0, grupo_max = 0, con_numeros = 0; // a
-    float porcentaje = 0, max_porcentaje = 0; // a
+    int con_impar = 0, grupo_max = 0, con_numeros = 0; // A
+    int porcentaje = 0, max_porcentaje = 0; // A
+    int primos = 0, ultimo_primo = 0, posicion_primo = 0, i = 0; // B
+    int mayor = 0, grupos_ordenados = 0; // C
+    bool bandera_ordenada = true; // C
    
     for (x = 1; x <= 10; x++)
     {
-       
-        // punto <
+        // Punto A
         con_numeros = 0;
         con_impar = 0;
+        porcentaje = 0;
+        // B
+        ultimo_primo = 0;
+        // Punto C
+        bandera_ordenada = true;
+        mayor = 0;
         cout << "----------------------------------------------------------------------" << endl;
         cout << "Lista " << x << ". Diguite n£meros o cero (0) para cambiar de lista: " << endl;
         cin >> num;
         while (num != 0)
         {
-            // A
+            // Punto A
             con_numeros++;
             if (num % 2 != 0){
                 if(num > 0){
@@ -33,25 +41,67 @@ int main(){
                 }
             }
 
-
-
+            // Punto B
+            primos = 0;
+            for (i = 1; i <= num; i++)
+            {
+                if (num % i == 0){
+                    primos++;
+                }
+            }
+            if (primos == 2)
+            {
+                ultimo_primo = num;
+                posicion_primo = con_numeros;
+            }
+            
+            // Punto C
+            if (con_numeros == 1){
+                mayor = num;
+            }else if(mayor > num){
+                mayor = num;
+            }else{
+                bandera_ordenada =  false;
+            }
+            
             cout << "----------------------------------------------------------------------" << endl;
             cout << "Lista " << x << ". Diguite n£meros o cero (0) para cambiar de lista: " << endl;
             cin >> num;
         }
-        // a
+        // Punto A
         if (con_numeros != 0){
             porcentaje = (con_impar * 100) / con_numeros;
-        if (porcentaje > max_porcentaje){
+        if (porcentaje >= max_porcentaje){
                 max_porcentaje = porcentaje;
                 grupo_max = x;
             }
         }
         
+        // Punto B
+        if (ultimo_primo > 0){
+            cout << "Grupo " << x << ". El ultimo n£mero primo ingresado: " << ultimo_primo << endl;
+            cout << "Grupo " << x << ". Posicion Ultimo Primo: " << posicion_primo << endl;
+        }else{
+            cout << "No se ingresaron n£meros primos en el grupo " << x << endl;
+        }
+
+        // Punto C
+        if (bandera_ordenada && mayor != 0 && con_numeros >= 2){
+            grupos_ordenados++;
+        }
 
     }
+    // Punto A
+    cout << "Grupo M ximo: " << grupo_max << endl;
+
+    // Punto C
+    cout << endl << "----------------------------------------------------" << endl;
+    if (grupos_ordenados > 0){
+        cout << "La cantidad de grupos ordenados de mayor a menor es: " << grupos_ordenados << endl;
+    }else{
+        cout << "No hay grupos ordenados." << endl;
+    }
     
-    cout << "Grupo maximo: " << grupo_max << endl;
 
     return 0;
 }
