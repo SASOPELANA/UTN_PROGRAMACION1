@@ -1,9 +1,9 @@
 /*
-    5 Se dispone de una lista de 10 grupos de n£meros enteros separados entre ellos por ceros. Se pide determinar e informar:
-    a) El n£mero de grupo con mayor porcentaje de n£meros impares positivos respecto al total de n£meros que forman el grupo. Se informa 1 resultado al final.
-    b) Para cada grupo el £ltimo n£mero primo y en qu‚ orden apareci¢ en ese grupo, si en un grupo no hubiera n£meros primos informar con un cartel
+    5 Se dispone de una lista de 10 grupos de nï¿½meros enteros separados entre ellos por ceros. Se pide determinar e informar:
+    a) El nï¿½mero de grupo con mayor porcentaje de nï¿½meros impares positivos respecto al total de nï¿½meros que forman el grupo. Se informa 1 resultado al final.
+    b) Para cada grupo el ï¿½ltimo nï¿½mero primo y en quï¿½ orden apareciï¿½ en ese grupo, si en un grupo no hubiera nï¿½meros primos informar con un cartel
        aclaratorio. Se informan 2 resultados por cada grupo.
-    c) Informar cuantos grupos est n formados por todos n£meros ordenados de mayor a menor. Se informa 1 resultado al final.
+    c) Informar cuantos grupos estï¿½n formados por todos nï¿½meros ordenados de mayor a menor. Se informa 1 resultado al final.
 */
 #include <iostream>
 using namespace std;
@@ -29,7 +29,7 @@ int main(){
         bandera_ordenada = true;
         mayor = 0;
         cout << "----------------------------------------------------------------------" << endl;
-        cout << "Lista " << x << ". Diguite n£meros o cero (0) para cambiar de lista: " << endl;
+        cout << "Lista " << x << ". Diguite nÃºmeros o cero (0) para cambiar de lista: " << endl;
         cin >> num;
         while (num != 0)
         {
@@ -65,7 +65,7 @@ int main(){
             }
             
             cout << "----------------------------------------------------------------------" << endl;
-            cout << "Lista " << x << ". Diguite n£meros o cero (0) para cambiar de lista: " << endl;
+            cout << "Lista " << x << ". Diguite nÃºmeros o cero (0) para cambiar de lista: " << endl;
             cin >> num;
         }
         // Punto A
@@ -79,10 +79,10 @@ int main(){
         
         // Punto B
         if (ultimo_primo > 0){
-            cout << "Grupo " << x << ". El ultimo n£mero primo ingresado: " << ultimo_primo << endl;
+            cout << "Grupo " << x << ". El ultimo nÃºmero primo ingresado: " << ultimo_primo << endl;
             cout << "Grupo " << x << ". Posicion Ultimo Primo: " << posicion_primo << endl;
         }else{
-            cout << "No se ingresaron n£meros primos en el grupo " << x << endl;
+            cout << "No se ingresaron nÃºmeros primos en el grupo " << x << endl;
         }
 
         // Punto C
@@ -92,7 +92,7 @@ int main(){
 
     }
     // Punto A
-    cout << "Grupo M ximo: " << grupo_max << endl;
+    cout << "Grupo MÃ¡ximo: " << grupo_max << endl;
 
     // Punto C
     cout << endl << "----------------------------------------------------" << endl;

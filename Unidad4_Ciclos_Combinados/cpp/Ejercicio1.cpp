@@ -11,7 +11,7 @@ int main(){
 
     for ( x = 0; x < 10; x++)
     {
-        cout << "Diguite numeros: " << endl;
+        cout << "Diguite números: " << endl;
         cin >> num;
 
         acu_divisible = 0;
@@ -27,9 +27,9 @@ int main(){
     }
     cout << endl << "-----------------------------------" << endl;
     if (num_perfecto > 0){
-        cout << "Los numeros perfectos que se ingresaron son: " << num_perfecto << endl;
+        cout << "Los números perfectos que se ingresaron son: " << num_perfecto << endl;
     }else{
-        cout << "No se ingresaron n�meros perfectos." << endl;
+        cout << "No se ingresaron números perfectos." << endl;
     }
     
 
