@@ -36,7 +36,8 @@ int main(){
             con++;
             
             // Punto A
-            if(num > 0){
+            if(num > 1){
+                con_primos = 0;
                 for (i = 1; i <= num; i++)
                 {
                     if(num % i == 0){
