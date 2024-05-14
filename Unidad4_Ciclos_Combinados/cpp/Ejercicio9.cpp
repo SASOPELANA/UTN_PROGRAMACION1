@@ -39,7 +39,7 @@ int main(){
             cout << "Camion ---> " << camion << ". Peso ---> " << acu_peso << endl;
 
         }else{
-            cout << endl << "-----------------------------" << endl;
+            cout << endl << "***-----------------------------***" << endl;
             cout << "El peso supera la capidad máxima del camion. Solo hasta 200 Kilos Máximos." << endl;
             cout << "Diguite el peso de la encomienda, o ingrese un peso negativo para finalizar: " << endl;
             cin >> peso;
