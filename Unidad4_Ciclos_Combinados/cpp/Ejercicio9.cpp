@@ -14,8 +14,42 @@ using namespace std;
 
 int main(){
 
-    
+    int peso, camion = 0, acu_peso = 0;
 
+    cout << "Diguite el peso de la encomienda, o ingrese un peso negativo para finalizar: " << endl;
+    cin >> peso;
+
+    while (peso > 0) // Pseudo Corte de control
+    {
+        acu_peso = 0;
+        camion++;  
+
+        if (peso <= 200){
+
+            while (peso + acu_peso <= 200 && peso > 0)
+            {
+                acu_peso += peso;
+
+
+
+
+                cout << "Diguite el peso de la encomienda, o ingrese un peso negativo para finalizar: " << endl;
+                cin >> peso;
+            }
+            cout << "Camion ---> " << camion << ". Peso ---> " << acu_peso << endl;
+
+        }else{
+            cout << endl << "-----------------------------" << endl;
+            cout << "El peso supera la capidad máxima del camion. Solo hasta 200 Kilos Máximos." << endl;
+            cout << "Diguite el peso de la encomienda, o ingrese un peso negativo para finalizar: " << endl;
+            cin >> peso;
+            if (camion >= 1){
+                camion--;
+            }
+        }
+        
+    }
+    
 
     return 0;
 }
