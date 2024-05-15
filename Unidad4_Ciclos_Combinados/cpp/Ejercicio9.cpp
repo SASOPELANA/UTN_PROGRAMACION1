@@ -15,6 +15,7 @@ using namespace std;
 int main(){
 
     int peso, camion = 0, acu_peso = 0;
+    int encomiendas = 0, camionMayor = 0, camionMax = 0; // Punto B
 
     cout << "Diguite el peso de la encomienda, o ingrese un peso negativo para finalizar: " << endl;
     cin >> peso;
@@ -23,6 +24,7 @@ int main(){
     {
         acu_peso = 0;
         camion++;  
+        encomiendas = 0;
 
         if (peso <= 200){
 
@@ -30,8 +32,8 @@ int main(){
             {
                 acu_peso += peso;
 
-
-
+                // PUnto B
+                encomiendas++;
 
                 cout << "Diguite el peso de la encomienda, o ingrese un peso negativo para finalizar: " << endl;
                 cin >> peso;
@@ -47,9 +49,16 @@ int main(){
                 camion--;
             }
         }
+        // Punto B
+        if (encomiendas > camionMayor){
+            camionMayor = encomiendas;
+            camionMax = camion;
+        }
         
     }
     
+    cout << endl << "-------Punto B ---------" << endl;
+    cout << "Camion con Máximo de encomiendas: " << camionMax << endl;
 
     return 0;
 }
