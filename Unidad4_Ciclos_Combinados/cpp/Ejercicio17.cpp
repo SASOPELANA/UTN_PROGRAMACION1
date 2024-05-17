@@ -17,6 +17,7 @@ int main(){
 
     int num_articulo, can_unidades = 0, importe_venta = 0, num_art_actual = 0; // variables, estrucutra, corte de control
     int acu_importe = 0; // Variable, punto A
+    int max_venta = 0, articulo_maximo = 0, acu_unidades = 0; // Punto B
 
     cout << "Diguite el número de Articulo Vendido, o cero (0) para finalizar: " << endl;
     cin >> num_articulo;
@@ -35,13 +36,14 @@ int main(){
         num_art_actual = num_articulo; // Asignacion corte de control
 
         acu_importe = 0; // Punto A
-
+        acu_unidades = 0; // Punto B
         while (num_art_actual == num_articulo) // Corte de control
         {
             // Punto A
             acu_importe += importe_venta;
 
-
+            // Punto B
+            acu_unidades += can_unidades;
 
             cout << "Diguite el número de Articulo Vendido, o cero (0) para finalizar: " << endl;
             cin >> num_articulo;
@@ -59,9 +61,16 @@ int main(){
         cout << "Grupo Articulo: " << num_art_actual << endl;
         cout << "Recaudacíon Total: " << acu_importe << endl;
 
+        // Punto B
+        if (acu_unidades > max_venta){
+            max_venta = acu_unidades;
+            articulo_maximo = num_art_actual;
+        }
+
     }
     
-    
+    cout << endl << "---- PUNTO B ----" << endl;
+    cout << "El número de Articulo con mayor cantidad vendidas: " << articulo_maximo << endl;
 
     return 0;
 }
