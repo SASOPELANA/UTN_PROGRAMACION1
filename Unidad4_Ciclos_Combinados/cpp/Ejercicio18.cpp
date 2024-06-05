@@ -35,8 +35,14 @@ int main(){
     float importeTotalObraSocial = 0, porcentaje_obraSocial = 0, porcentaje_obra_minimo = 0, importe_total_obra = 0;
     bool bandera_obraSocial = false;
     int sucursal_obra_minimo = 0;
+    // Punto C
+    float ventaUno_mayorImporte = 0, ventaDos_mayorImporte = 0;
+    int individual = 0;
+    // Punto D
+    float venta_menor = 0;
+    int dia_menor = 0, sucursal_menor_venta = 0, conVentas = 0; 
  
-    cout << "Digite el nÃºmero de sucursal (1 a 30) o cero (0) para finalizar; " << endl;
+    cout << "Digite el n£mero de sucursal (1 a 30) o cero (0) para finalizar; " << endl;
     cin >> num_sucursal;
 
     while (num_sucursal != 0)
@@ -49,6 +55,10 @@ int main(){
         acu_impo_debito = 0;
         // Punto B
         importeTotalObraSocial = 0;
+        // Punto C
+        individual = 0;
+        ventaUno_mayorImporte = 0;
+        ventaDos_mayorImporte = 0;
 
         while (num_sucursal == num_sucu_actual) // Corte de control
         {
@@ -62,24 +72,26 @@ int main(){
             switch (tipo_venta)
             {
             case 1: cout << " ** Particular ** " << endl;
+                // Punto C
+                individual++;
 
                 break;
             case 2: cout << " ** Obra Social **" << endl;
                 importeTotalObraSocial += importe_venta;
                 break;   
             default:
-                cout << "OpcÃ­on no Valida."  << endl;  
+                cout << "Opc¡on no Valida."  << endl;  
                 break;
             }
-            cout << "Ingrese la forma de pago (1=DÃ©bito, 2=CrÃ©dito, 3=Contado): " << endl;
+            cout << "Ingrese la forma de pago (1=D‚bito, 2=Cr‚dito, 3=Contado): " << endl;
             cin >> forma_pago;
             switch (forma_pago)
             {              
-            case 1: cout << " -- DÃ©bito --" << endl;
+            case 1: cout << " -- D‚bito --" << endl;
                 acu_impo_debito += importe_venta;
 
                 break;
-            case 2: cout << " -- CrÃ©dito -- " << endl;
+            case 2: cout << " -- Credito -- " << endl;
                 acu_impo_credito += importe_venta;
 
                 break;
@@ -89,26 +101,53 @@ int main(){
                 break;   
             
             default:
-                cout << "OpcÃ­on no valida. " << endl;
+                cout << "Opc¡on no valida. " << endl;
                 break;
             }
             total_venta += importe_venta;
 
+            // Punto C
+            if (individual == 1){
+                if(importe_venta > ventaUno_mayorImporte){
+                    ventaUno_mayorImporte = importe_venta;
+                }   
+            }
+            if(individual >= 2){
+                if(importe_venta > ventaUno_mayorImporte){
+                    ventaDos_mayorImporte = ventaUno_mayorImporte;
+                    ventaUno_mayorImporte = importe_venta;
+                }else{
+                    ventaDos_mayorImporte = importe_venta;
+                }
+            }
 
-
+            // Punto D
+            if(importe_venta > 0){
+                conVentas++;
+                if(conVentas == 1){
+                    venta_menor = importe_venta;
+                    dia_menor = dia_venta;
+                    sucursal_menor_venta = num_sucu_actual;
+                }else if(importe_venta < venta_menor){
+                    venta_menor = importe_venta;
+                    dia_menor = dia_venta;
+                    sucursal_menor_venta = num_sucu_actual;
+                }
+            }
+            
             cout << endl << " ---------------------------------- " << endl;
 
-            cout << "Digite el nÃºmero de sucursal (1 a 30) o cero (0) para finalizar; " << endl;
+            cout << "Digite el n£mero de sucursal (1 a 30) o cero (0) para finalizar; " << endl;
             cin >> num_sucursal;
         }
 
         // Punto A
-         if (total_venta > 0) {
+        if (total_venta > 0){
             por_reca_debito = (acu_impo_debito / total_venta) * 100;
             por_reca_credito = (acu_impo_credito / total_venta) * 100;
             por_reca_conta = (acu_impo_contado / total_venta) * 100;
         }
-        cout << "Sucursal " << num_sucu_actual << ". Porcentaje reacudaciÃ³n total ventas: " << endl;
+        cout << "Sucursal " << num_sucu_actual << ". Porcentaje reacudaci¢n total ventas: " << endl;
         if (acu_impo_debito > 0){
             cout << "Debito: " << por_reca_debito << "%"<< endl;
         }else{
@@ -137,18 +176,36 @@ int main(){
                 sucursal_obra_minimo = num_sucu_actual;
             }
         }
+
+        // Punto C
+        if(individual == 1){
+            cout << "Primera venta individual mayor importe: " << ventaUno_mayorImporte << endl;
+        }else if(individual >= 2){
+            cout << "Primera venta individual mayor importe: " << ventaUno_mayorImporte << endl;
+            cout << "Segunda venta individual mayor importe: " << ventaDos_mayorImporte << endl;
+        }else{
+            cout << "No se registraron ventas individuales en la sucursal: " << num_sucu_actual << endl;
+        }
         
 
         
     }
     
-    // Punto B
+    // Punto B 
+    cout << endl << "-- Punto B --" << endl;
     if (bandera_obraSocial){
         cout << "Surcursal con menor porcentaje de ventas en Tipo Obra Social: " << sucursal_obra_minimo << endl;
     }else{
         cout << "Sin ventas de Tipo Obra Social." << endl;
     }
        
+    // Punto D
+    if (conVentas > 0){
+        cout << endl << "-- Punto D --" << endl;
+        cout << " La venta de menor importe de todas las ventas $ : " << venta_menor << endl;
+        cout << " La venta de menor importe de todas las ventas, sucursal: " << sucursal_menor_venta << endl;
+        cout << " La venta de menor importe de todas las ventas, dia: " << dia_menor << endl;
+    }   
     
 
     return 0;
