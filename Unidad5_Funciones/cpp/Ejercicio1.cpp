@@ -6,9 +6,30 @@
 #include <iostream>
 using namespace std;
 
+int EsPar(int n1){
+    bool par = false;
+    if(n1 % 2 == 0){
+        par = true;
+    }
+    return par;
+}
+
 int main(){
 
-    
+    int num;
+    bool par1 = false;
 
+    cout << "Ingrese un n£mero: " << endl;
+    cin >> num;
+
+    par1 = EsPar(num);
+
+    if (par1)
+    {
+       cout << "El n£mero es Par." << endl;
+    }else{
+        cout << "El n£mero No es Par." << endl;
+    }
+    
     return 0;
 }
