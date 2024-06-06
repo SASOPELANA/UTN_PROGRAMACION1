@@ -11,20 +11,39 @@
 using namespace std;
 
 bool EsPrimoSophieGermain(int n1){
-    int r = (n1 * 2) + 1;
-    int x = 0, con = 0;
     bool primo = false;
-
-    for (x = 1; x <= r; x++)
-    {
-        if(r % x == 0){
-            con++;
+    int x = 0, con = 0;
+    if (n1 > 1){
+        for (x = 1; x <= n1; x++)
+        {
+            if(n1 % x == 0){
+                con++;
+            }
         }
-    }
-    if (con == 2)
-    {
-        primo = true;
-    }
+        if (con == 2)
+        {
+            primo = true;
+        }
+        if(primo){
+            con = 0;
+            int r = (n1 * 2) + 1;
+            int i = 0;
+            for (i = 1; i <= r; i++)
+            {
+                if(r % i == 0){
+                    con++;
+                }
+            }
+            if(con == 2){
+                primo = true;
+            }else{
+                primo =  false;
+            }
+            
+        }       
+    }else{
+        primo = false;
+    } 
     return primo;
 }
 
@@ -35,11 +54,11 @@ int main(){
     cout << "Ingrese un numero: ";
     cin >> num;
 
-    if(EsPrimoSophieGermain(num)){
+   if(EsPrimoSophieGermain(num)){
         cout << "El numero ingresado es primo Sophie Germain. " << endl;
-    }else{
+   }else{
         cout << "El numero ingresado No es primo Sophie Germain. " << endl;
-    }
+   }
 
     return 0;
 }
