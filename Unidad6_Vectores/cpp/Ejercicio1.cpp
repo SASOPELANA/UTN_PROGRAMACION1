@@ -3,12 +3,11 @@
     Determinar e informar cuál es la suma de los valores del vector
 */
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int main(){
 
-    vector<int> Mi_vector(10);
+    int Mi_vector[10];
 
     int num, suma = 0, x = 0;
     int acu = 0;
