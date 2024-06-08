@@ -23,7 +23,6 @@ int main(){
         cout << "Usted ingreso el cero (0)." << endl;
     }
     
-
     return 0;
 }
 
