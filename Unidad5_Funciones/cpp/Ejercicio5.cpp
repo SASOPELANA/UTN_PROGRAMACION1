@@ -9,29 +9,32 @@
 #include <iostream>
 using namespace std;
 
-int Redondear(float n1){
-    int resultado = 0;
-    float resto = 0;
-    resto = n1 - (int)n1;
-    if(resto >= 0.5){
-        resultado = (n1 - resto) + 1;
-    }else if(resto < 0.5){
-        resultado = n1 - resto;
-    }
-    return resultado;
-}
+float Redondeo(float A);
 
 int main(){
 
-    float num;
-    int redondo = 0;
+    float n;
+    int r = 0;
 
-    cout << "Ingrese un numero decimal: "; 
-    cin >> num;
+    cout << "Digite un número decimal: ";
+    cin >> n;
 
-    redondo = Redondear(num);
+    r = Redondeo(n);
 
-    cout << "Numero Redondeado: " << redondo << endl;
+    cout << "Redondeo: " << r << endl;
 
     return 0;
+}
+
+float Redondeo(float A){
+    int F = A;
+    float resultado = A - F;
+
+    if (resultado >= 0.5){
+        resultado = (int) A + 1;
+    }else{
+        resultado = (int) A;
+    }
+
+    return resultado;
 }
