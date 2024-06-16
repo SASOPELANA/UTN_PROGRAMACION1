@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1718523148 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\vermenu.cpp
+	<iostream>
+	"funcion.h"
+
+1718531208 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\main.cpp
+	<iostream>
+	<locale.h>
+	"funcion.h"
+	<ctime>
+
+1718524510 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\elegiropcion.cpp
+	<iostream>
+	"funcion.h"
+
+1718553851 e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\funcion.h
+
+1718532441 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\pedirnombre.cpp
+	<iostream>
+	"funcion.h"
+
