@@ -3,19 +3,24 @@
 	<iostream>
 	"funcion.h"
 
-1718531208 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\main.cpp
+1718594159 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\main.cpp
 	<iostream>
 	<locale.h>
 	"funcion.h"
+	<cstdlib>
 	<ctime>
 
 1718524510 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\elegiropcion.cpp
 	<iostream>
 	"funcion.h"
 
-1718553851 e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\funcion.h
+1718597477 e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\funcion.h
 
-1718532441 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\pedirnombre.cpp
+1718601013 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\pedirnombre.cpp
+	<iostream>
+	"funcion.h"
+
+1718601854 source:e:\utn\prgramacion 1\utn_practicos_programacion1\utn_programacion1\trabajo_practico_integrador\cpp\trabajo_final_integrador\cartas.cpp
 	<iostream>
 	"funcion.h"
 

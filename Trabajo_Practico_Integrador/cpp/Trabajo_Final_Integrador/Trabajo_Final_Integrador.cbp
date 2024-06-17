@@ -32,9 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Cartas.cpp" />
 		<Unit filename="ElegirOpcion.cpp" />
 		<Unit filename="PedirNombre.cpp" />
-		<Unit filename="RondasEmbaucado.cpp" />
 		<Unit filename="VerMenu.cpp" />
 		<Unit filename="funcion.h">
 			<Option target="&lt;{~None~}&gt;" />
