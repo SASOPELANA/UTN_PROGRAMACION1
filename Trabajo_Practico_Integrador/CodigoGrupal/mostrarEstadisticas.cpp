@@ -5,6 +5,6 @@ using namespace std;
 
 void mostrarEstadisticas(){
 
-    cout << "FunciÃ³n para mostrar los crÃ©ditos. " << endl;
+    cout << "Funci¢n para mostrar los cr‚ditos. " << endl;
 
 }

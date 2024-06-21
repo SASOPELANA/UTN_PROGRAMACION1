@@ -7,8 +7,8 @@ void VerMenu(){
     cout << "EMBAUCADO" << endl;
     cout << "---------------------" << endl;
     cout << "1 _ JUGAR" << endl;
-    cout << "2 _ ESTADÃSTICAS" << endl;
-    cout << "3 _ CRÃ‰DITOS" << endl;
+    cout << "2 _ ESTADÖSTICAS" << endl;
+    cout << "3 _ CRDITOS" << endl;
     cout << "---------------------" << endl;
     cout << "0 _ SALIR" << endl;
 

@@ -17,14 +17,14 @@ void ElegirOpcion(int &opcion){
 
         case 2:
 
-            cout << "2 _ ESTADÃSTICAS" <<  endl;
+            cout << "2 _ ESTADÖSTICAS" <<  endl;
             mostrarEstadisticas();
 
             break;
 
         case 3:
 
-            cout << "3 _ CRÃ‰DITOS" << endl;
+            cout << "3 _ CRDITOS" << endl;
             mostrarCreditos();
 
             break;
@@ -37,7 +37,7 @@ void ElegirOpcion(int &opcion){
 
         default:
             if(opcion != -1){
-                cout << "OpciÃ³n no valida." << endl;
+                cout << "Opci¢n no valida." << endl;
             }
 
             break;
