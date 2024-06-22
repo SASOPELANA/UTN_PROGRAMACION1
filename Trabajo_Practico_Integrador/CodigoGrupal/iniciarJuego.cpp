@@ -1,10 +1,6 @@
 #include <iostream>
-
 #include "funciones.h"
-
 using namespace std;
-
-
 
 void iniciarJuego(){
 
@@ -12,7 +8,7 @@ void iniciarJuego(){
 
     char confirmar;
 
-
+    string CartaEmba;
 
     do {
 
@@ -42,19 +38,30 @@ void iniciarJuego(){
 
     } while (confirmar != 'S' && confirmar != 's');
 
-
-
+    
     int num[10];
+
+    // Declarmaos variables para la funcion mostrarResultadosFinales
+    int puntosJugador1 = 0, puntosJugador2 = 0;
 
     bool jugador1Sacrifico = false, jugador2Sacrifico = false;
 
-
+    // Declarar variables para cada ronda por jugador.
+    int puntosRondasJugador1 = 0, puntosRondasJugador2 = 0;
 
     for (int ronda = 1; ronda <= 3; ronda++){
 
-        cout << "Ronda #" << ronda << endl;
+        if(ronda == 1){
+            CartaEmba = cartaEmbaucadora();
+        }
+        
+        system("cls");
 
+        cout << "EMBAUCADOR " << endl;
         cout << "------------------------------------------------------------------------" << endl;
+        cout << endl << "Ronda #" << ronda << endl;
+        cout << jugador1 << " VS " << jugador2 << endl;
+        cout << endl << "------------------------------------------------------------------------" << endl;
 
 
 
@@ -62,34 +69,34 @@ void iniciarJuego(){
 
 
 
-        cout << endl << jugador1 << ": " << endl;
-
+        cout << endl << jugador1 << " (" << puntosRondasJugador1 << " puntos)" << endl;
+        puntosRondasJugador1 = 0; // Reiniciando puntos por rondas. Jugador 1
         for(int i = 0; i < 5; i++){
 
             int n;
 
             do {
 
-                n = 1 + rand() % 20;
+                n = 1 + rand() % 20; // Genera n£meros al azar entre 1 y 20
 
-            } while(verificar(n, num));
+            } while(verificar(n, num)); // Verifica si el N£mero ya fue generado.
 
-            num[i] = n;
+            num[i] = n; // Almacena el n£mero una vez que se verifico si ya fue generado.
 
             string palo;
 
             int puntos;
 
-            string nombreCarta = ObtenerCarta(n, puntos, palo);
+            string nombreCarta = ObtenerCarta(n, puntos, palo); // Obtener carta y puntos
+            cout << "     " << nombreCarta << " " << palo << ". Puntos --> " << puntos << endl;
 
-            cout << nombreCarta << " de " << palo << " --> " << puntos << endl;
 
         }
 
+        
 
-
-        cout << endl << jugador2 << ": " << endl;
-
+        cout << endl << jugador2 << " (" << puntosRondasJugador2 << " puntos)"  << endl;
+        puntosRondasJugador2 = 0; // Reiniciando puntos por rondas. Jugador 2
         for(int i = 5; i < 10; i++){
 
             int n;
@@ -107,53 +114,80 @@ void iniciarJuego(){
             int puntos;
 
             string nombreCarta = ObtenerCarta(n, puntos, palo);
+            cout << "     " << nombreCarta << " " << palo << ". Puntos --> " << puntos << endl;
 
-            cout << nombreCarta << " de " << palo << " --> " << puntos << endl;
 
         }
 
+        cout << endl;
 
-
-        string CartaEmba = cartaEmbaucadora();
-
+        
         cout << "Embaucadora: " << CartaEmba << endl;
+    
 
+        puntosJugador1 += calcularPuntaje(num, CartaEmba);
+        puntosJugador2 += calcularPuntaje(num + 5, CartaEmba);
 
+        puntosRondasJugador1 = puntosJugador1;
+        puntosRondasJugador2 = puntosJugador2;
 
-        if (ronda > 1){
+        cout << endl;
+        mostrarResultadosFinales(puntosJugador1, puntosJugador2, jugador1, jugador2);
+        
+
+        if (ronda > 0 && ronda < 3){     // ronda >= 1
 
             char opcion;
 
-            cout << jugador1 << ", ¨deseas modificar la carta embaucadora actual (" << CartaEmba << ")? (S/N): ";
-
+            cout << jugador1 << ", ¨Deseas modificar la carta embaucadora actual (" << CartaEmba << ")? Se le descontara 20 puntos (S/N): ";
+            
             cin >> opcion;
+
+            cout << endl; // borrar si es nesesario
+            system("pause"); // borrar  
+            system("cls"); // borrar
 
             if(opcion == 'S' || opcion == 's'){
 
                 jugador1Sacrifico = true;
 
+                if(jugador1Sacrifico){ // Sacrifica 20 puntos si acepto cambair la carta embaucadora
+                    puntosJugador1 -= 20;
+                    jugador1Sacrifico = false;
+                }
+
                 CartaEmba = cartaEmbaucadora();
 
                 cout << "Nueva carta embaucadora: " << CartaEmba << endl;
 
-            } else {
+            } 
 
-                cout << jugador2 << ", ¨deseas modificar la carta embaucadora actual (" << CartaEmba << ")? (S/N): ";
+            cout << jugador2 << ", ¨Deseas modificar la carta embaucadora actual (" << CartaEmba << ")? Se le descontara 20 puntos (S/N): ";
 
-                cin >> opcion;
+            cin >> opcion;
 
-                if(opcion == 'S' || opcion == 's'){
+            if(opcion == 'S' || opcion == 's'){
 
-                    jugador2Sacrifico = true;
+            jugador2Sacrifico = true;
 
-                    CartaEmba = cartaEmbaucadora();
+            if(jugador2Sacrifico){ // Sacrifica 20 puntos si acepto cambair la carta embaucadora
+                puntosJugador2 -= 20;
+                jugador2Sacrifico = false;
+            }
 
-                    cout << "Nueva carta embaucadora: " << CartaEmba << endl;
+            CartaEmba = cartaEmbaucadora();
 
-                }
+            cout << "Nueva carta embaucadora: " << CartaEmba << endl;
 
             }
 
+            
+        }else{
+            system("pause");
+            system("cls");
+            VerMenu();
+            int opcion = -1;
+            return ElegirOpcion(opcion);
         }
 
     }
@@ -213,4 +247,3 @@ string ObtenerCarta(int carta, int &puntos, string &palo){
     return nombre;  
 
 }
-
