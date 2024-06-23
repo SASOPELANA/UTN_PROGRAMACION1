@@ -4,7 +4,7 @@ using namespace std;
 
 string cartaEmbaucadora(){
 
-    string figura[] = { "Coraz¢n", "Diamante", "Pica", "Tr‚bol" };
+    string figura[] = { "Corazones", "Diamantes", "Picas", "Tr‚bol" };
 
     int numeroAleatorio = rand() % 4;
 
